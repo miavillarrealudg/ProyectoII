@@ -35,7 +35,7 @@ class Clientes extends Component {
                         <Col md={12}>
                             
                             <Card
-                                title="Listado de clientes"
+                                title="Listado de Clientes"
                                 category=""
                                 ctTableFullWidth
                                 ctTableResponsive
