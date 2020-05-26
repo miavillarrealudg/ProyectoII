@@ -18,10 +18,12 @@
 import Clientes from "views/Clientes.jsx";
 import Reservaciones from "views/Reservaciones.jsx";
 import Pagos from "views/Pagos.jsx";
+import Menu from "views/Menu.jsx";
+
 // import Dashboard from "views/Dashboard.jsx";
 // import UserProfile from "views/UserProfile.jsx";
 // import TableList from "views/TableList.jsx";
-// import Typography from "views/Typography.jsx";
+
 // import Icons from "views/Icons.jsx";
 // import Maps from "views/Maps.jsx";
 // import Notifications from "views/Notifications.jsx";
@@ -49,6 +51,15 @@ const dashboardRoutes = [
     component: Pagos,
     layout: "/admin"
   },
+  {
+    path: "/Menu",
+    name: "Menú",
+    icon: "pe-7s-news-paper",
+    component: Menu,
+    layout: "/admin"
+  },
+
+
   /*   {
       path: "/dashboard",
       name: "Dashboard",
@@ -71,13 +82,7 @@ const dashboardRoutes = [
     component: TableList,
     layout: "/admin"
   },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "pe-7s-news-paper",
-    component: Typography,
-    layout: "/admin"
-  },
+
   {
     path: "/icons",
     name: "Icons",
