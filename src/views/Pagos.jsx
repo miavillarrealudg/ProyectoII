@@ -31,7 +31,7 @@ class Pagos extends Component {
                         <Col md={12}>
                             
                             <Card
-                                title="Listado de Pagos"
+                                title="Listado de pagos"
                                 category=""
                                 ctTableFullWidth
                                 ctTableResponsive

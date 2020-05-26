@@ -34,7 +34,7 @@ class Reservaciones extends Component {
                         <Col md={12}>
                             
                             <Card
-                                title="Listado de Reservaciones"
+                                title="Listado de reservaciones"
                                 category=""
                                 ctTableFullWidth
                                 ctTableResponsive
